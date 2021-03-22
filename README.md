@@ -1,6 +1,6 @@
 
 
-#amkoro 🐰
+# amkoro 🐰
 
 <p>
   <a href="https://www.notion.so/amkorousagi-7ea15f84606a43ab8088a737d57e802f">my profile</a>
