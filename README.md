@@ -1,9 +1,9 @@
 
-<img src="https://github.com/amkorousagi/amkorousagi/blob/main/KakaoTalk_20210322_171811179.jpg?raw=true" width="100px" >
+<img src="https://github.com/amkorousagi/amkorousagi/blob/main/KakaoTalk_20210322_171811179.jpg?raw=true" width="100px" />
 # amkoro 🐰
 (*/ω＼*)
 <p>
-  <a href="https://www.notion.so/amkorousagi-7ea15f84606a43ab8088a737d57e802f">my profile</a>
+  <a href="https://www.notion.so/amkorousagi-7ea15f84606a43ab8088a737d57e802f"><img src="https://img.shields.io/badge/Profile-amkoro-blueviolet?style=?style=plastic&logo=appveyor" /></a>
   <a href="https://amkorousagi-money.tistory.com/">my blog</a>
   <a href="https://www.notion.so/CV-English-bff112a3d60d4395b364c85c9996e82d">my cv</a>
 </p>
