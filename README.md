@@ -1,5 +1,5 @@
 
-
+<img src="https://github.com/amkorousagi/amkorousagi/blob/main/KakaoTalk_20210322_171811179.jpg?raw=true">
 # amkoro 🐰
 (*/ω＼*)
 <p>
