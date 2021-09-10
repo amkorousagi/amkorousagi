@@ -2,7 +2,7 @@
 ### I am amkoro🐇  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Famkorousagi&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 <p>
   <a href="https://www.notion.so/amkorousagi-7ea15f84606a43ab8088a737d57e802f"><img src="https://img.shields.io/badge/Profile-amkoro-blueviolet?style=plastic&logo=appveyor" /></a>
-  <a href="https://amkorousagi-money.tistory.com/"><img src="https://img.shields.io/badge/Blog-amkoro-deepskyblue?style=plastic&logo=appveyor" /></a>
+  <a href="https://amkoro.tistory.com/"><img src="https://img.shields.io/badge/Blog-amkoro-deepskyblue?style=plastic&logo=appveyor" /></a>
   <a href="https://www.notion.so/CV-English-bff112a3d60d4395b364c85c9996e82d"><img src="https://img.shields.io/badge/CV-amkoro-brightgreen?style=plastic&logo=appveyor" /></a>
 </p>
 
