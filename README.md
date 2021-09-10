@@ -8,22 +8,6 @@
   <a href="https://www.notion.so/CV-English-bff112a3d60d4395b364c85c9996e82d"><img src="https://img.shields.io/badge/CV-amkoro-brightgreen?style=plastic&logo=appveyor" /></a>
 </p>
 
-- 😎 Curious CSE Undergraduate student.
-- 😘 Likes to develop ...
-    - Frontend with React, Recoil, Jest
-    - Backend with Node, Express, Jest
-- 🧐 Studying for ...
-    - Machine Learning
-    - Deep Learning
-- 🤔 Interested in
-    - TypeScript
-    - MSA using docker container + communicating with each event message queue
-    - Kotlin for Android app
-- 😍 Otaku
-    - HearthStone
-    - Voice Actors
-    - Webtoon
-    - Choobie
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=amkorousagi)](https://github.com/anuraghazra/github-readme-stats)
 <!--
