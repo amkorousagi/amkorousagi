@@ -13,7 +13,7 @@
 ### I wannabe Game AI engineer or Game programmer 🎮
 
 - 🔭 I’m currently working on ESE Lab. in KNU
-- 🌱 I’m currently learning Game Tree(MCTS), Simulation and Reinforce Learning
+- 🌱 I’m currently Reinforce Learning, AI, Game, Web
 - 📫 How to reach me: <a href="mailto:hamsmi5452@gmail.com">hasmi5452@gmail.com</a>
 - 😄 Pronouns: He / Him / His
 - ⚡ Fun fact: The compiler doesn't warn Dean. He warns the compiler.
