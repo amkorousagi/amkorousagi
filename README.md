@@ -10,10 +10,9 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hkhkhk5452)](https://solved.ac/hkhkhk5452/)
 
 ### I am amkoro🐇  
-### I wannabe Game AI engineer or Game programmer 🎮
 
-- 🔭 I’m currently working on ESE Lab. in KNU
-- 🌱 I’m currently Reinforce Learning, AI, Game, Web
+- 🔭 I’m currently working as Unity AI engineer at salphatheraputics.
+- 🌱 I’m currently interested in Unity Sentis, Reinforce Learning.
 - 📫 How to reach me: <a href="mailto:hamsmi5452@gmail.com">hasmi5452@gmail.com</a>
 - 😄 Pronouns: He / Him / His
 
