@@ -11,7 +11,7 @@
 
 ### I am amkoro🐇  
 
-- 🔭 I’m currently working as Unity AI engineer at salphatheraputics.
+- 🔭 I’m currently working as Unity AI engineer at salphatherapeutics.
 - 🌱 I’m currently interested in Unity Sentis, Reinforce Learning.
 - 📫 How to reach me: <a href="mailto:hamsmi5452@gmail.com">hasmi5452@gmail.com</a>
 - 😄 Pronouns: He / Him / His
