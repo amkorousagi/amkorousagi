@@ -1,7 +1,7 @@
 ## PLUS ULTRA!!!
 <p>
   <a href="https://amkorousagi-money.tistory.com/"><img src="https://img.shields.io/badge/Blog-amkorousagi-deepskyblue?style=plastic&logo=appveyor" /></a>
-  <a href="https://www.notion.so/Greedy-Developer-SeChan-Park-bff112a3d60d4395b364c85c9996e82d"><img src="https://img.shields.io/badge/CV-amkoro-brightgreen?style=plastic&logo=appveyor" /></a>
+  <a href="https://amkorousagi.notion.site/_-d9d6000072934cb1af266bb810fdad63?pvs=74"><img src="https://img.shields.io/badge/CV-amkoro-brightgreen?style=plastic&logo=appveyor" /></a>
 </p>
 
 
