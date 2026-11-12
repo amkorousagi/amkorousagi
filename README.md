@@ -30,11 +30,14 @@ Vision 모델을 실제 제품의 기기 안에서 빠르고 정확하게 돌게
 
 ## 기술
 
-| 분야 | 주로 쓰는 것 |
-|------|--------------|
-| ML · 모델링 | Python, PyTorch, ONNX, Hugging Face Transformers, scikit-learn, pandas |
-| 추론 · 온디바이스 | ONNX Runtime, TFLite (XNNPACK), C++ (멀티스레딩 · C API), Android NDK/JNI · Camera2, iOS (Swift), Unity, Compute Shader |
-| 엔지니어링 | Node.js, Docker, CMake, Jenkins, GitHub Actions |
+**ML · 모델링**  
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+
+**추론 · 온디바이스**  
+<img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/TFLite_(XNNPACK)-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/Android_NDK%2FJNI-34A853?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Camera2-34A853?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/iOS_(Swift)-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/> <img src="https://img.shields.io/badge/Compute_Shader-5586A4?style=flat-square&logo=opengl&logoColor=white"/>
+
+**엔지니어링**  
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 
 ## 연구
 
