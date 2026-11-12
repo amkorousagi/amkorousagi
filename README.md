@@ -1,23 +1,25 @@
 # 박세찬 · Sechan Park
 
-**AI/ML Engineer · On-Device Computer Vision · 추론 최적화 (ONNX Runtime · C++)**
+**AI/ML Engineer · On-Device Computer Vision · NLP · 추론 최적화 (ONNX Runtime · C++)**
 
 <a href="https://amkorousagi.github.io"><img src="https://img.shields.io/badge/CV-amkorousagi.github.io-222222?style=flat-square&logo=githubpages&logoColor=white"/></a> <a href="https://linkedin.com/in/se-chan-park-5a4b84192"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg=="/></a> <a href="https://scholar.google.co.kr/citations?user=V2_eA3cAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"/></a> <a href="mailto:hasmi5452@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 
-온디바이스 Computer Vision·NLP 시스템을 설계·개발해 제품에 배포해 온 ML 엔지니어입니다.
-[식약처 품목허가](https://www.etoday.co.kr/news/view/2626050) 소아 근시 디지털 치료기기 **MyoHabit**의 시선 추적 파이프라인을  Android·iOS 온디바이스로 설계·개발하고 운영하며, React Native·Unity 공용 C++ 추론 SDK와 추론 최적화를 직접 구현했습니다. PTSD 치료 앱에서는 감정 분류와 문장 임베딩을 결합한 유사도 검색 기반 치료 문장 추천 시스템을 설계·구현해 프로덕션에 배포했습니다.
+온디바이스 Computer Vision·NLP 시스템을 설계·개발해 제품에 배포해 온 AI/ML 엔지니어입니다.
+[식약처 품목허가](https://www.etoday.co.kr/news/view/2626050) 소아 근시 디지털 치료기기 **MyoHabit**의 시선 추적 파이프라인을 Android·iOS 온디바이스로 설계·개발하고 운영하며, React Native·Unity 공용 C++ 추론 SDK와 추론 최적화를 구현했습니다. PTSD 치료 앱에서는 감정 분류와 문장 임베딩을 결합한 유사도 검색 기반 치료 문장 추천 시스템을 설계·구현해 프로덕션에 배포했습니다.
+
 ## 경력
 
-- **2024.01 – 현재** · 에스알파테라퓨틱스 AI Center 연구원 (Manager) — 온디바이스 시선 추적, 임상 데이터 모델링, NLP 서빙
+- **2024.01 – 현재** · 에스알파테라퓨틱스 AI Center 연구원 (Manager) — 온디바이스 시선 추적, C++ 추론 SDK, 임상 데이터 모델링, NLP 추천
 - **2022.03 – 2024.02** · 경북대학교 소프트웨어 테스팅 연구실 석사 — 강화학습 게임 테스트 자동화, 데이터 회귀
 
 ## 하이라이트
 
 - **시선 파이프라인 추론 시간 120–300ms → 42–48ms** — 실기기 계측으로 병목이 연산량이 아니라 GPU→CPU 결과 전달임을 찾아 구조 변경
-- **C++ 추론 SDK** — ONNX Runtime·TFLite 네이티브 코어를 C API로 감싸 React Native·Unity에 같은 API로 제공. 전용 스레드로 분리해 Galaxy Tab S7 추론 1회 **42.4 → 15.1ms** (화면 47 → 60fps)
+- **C++ 추론 SDK** — ONNX Runtime·TFLite 네이티브 코어를 C API로 감싸 React Native·Unity에 같은 API로 제공. 추론을 렌더링과 분리된 전용 스레드로 옮김
 - **모델 그래프 최적화** — 레이아웃 통일·양눈 배치 추론·출력 병합으로 추론 시간 **2~4배 단축**, 모델 크기 **-40%**
 - **모델 재설계** — 거리 추정을 홍채 직경 + 초점거리 기준으로 바꿔 최대 오차 **±10cm → 1.1–2.5cm**
-- **임상 데이터 모델링** — 임상시험 시선 로그 약 18만 건으로 피처 설계·회귀 모델링 (APOIS 2026 발표)
+- **임상 데이터 모델링** — 임상시험 시선 로그 데이터 마이닝·피처 엔지니어링·회귀 모델링 (APOIS 2026 발표)
+- **치료 문장 추천 (NLP)** — Hugging Face Transformers 감정 분류와 문장 임베딩을 결합한 유사도 검색, ONNX 변환·API 서빙
 
 ## 오픈소스 · 프로젝트
 
