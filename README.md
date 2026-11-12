@@ -13,14 +13,15 @@ Vision 모델을 실제 제품의 기기 안에서 빠르고 정확하게 돌게
 
 ## 하이라이트
 
-- **추론 지연 120–300ms → 42–48ms** — 실기기 계측으로 병목이 연산량이 아니라 GPU→CPU 결과 전달임을 찾아 구조 변경
-- **C++ 추론 SDK** — ONNX Runtime·TFLite 네이티브 코어를 C API로 감싸 React Native·Unity에 공용 제공, 전용 스레드로 Galaxy Tab S7 추론 **42.4 → 15.1ms** (47 → 60fps)
-- **모델 그래프 최적화** — 레이아웃 통일·양눈 배치 추론·출력 병합으로 갱신 주기 **2~4배**, 모델 크기 **-40%**, 출력 비트 동일 유지
+- **시선 갱신 주기 120–300ms → 42–48ms** — 실기기 계측으로 병목이 연산량이 아니라 GPU→CPU 결과 전달임을 찾아 구조 변경
+- **C++ 추론 SDK** — ONNX Runtime·TFLite 네이티브 코어를 C API로 감싸 React Native·Unity에 같은 API로 제공. 전용 스레드로 분리해 Galaxy Tab S7 추론 1회 **42.4 → 15.1ms** (화면 47 → 60fps)
+- **모델 그래프 최적화** — 레이아웃 통일·양눈 배치 추론·출력 병합으로 갱신 주기 **2~4배**, 모델 크기 **-40%**
 - **모델 재설계** — 거리 추정을 홍채 직경 + 초점거리 기준으로 바꿔 최대 오차 **±10cm → 1.1–2.5cm**
+- **임상 데이터 모델링** — 임상시험 시선 로그 약 18만 건으로 피처 설계·회귀 모델링 (APOIS 2026 발표)
 - **NLP 서빙** — 감정 분류 + 문장 임베딩 추천을 ONNX로 변환해 프로덕션 배포, 추론 **11.33 → 2.61ms**
-- **MLOps** — Jenkins로 Google Play 자동 배포, LLM PR 리뷰봇, 시선 회귀 테스트 49/49 CI 게이트
+- **CI/CD** — Jenkins로 Google Play 자동 배포, LLM PR 리뷰봇, 시선 회귀 테스트 49/49 CI 게이트
 
-## 오픈소스
+## 오픈소스 · 프로젝트
 
 - [microsoft/onnxruntime#24096](https://github.com/microsoft/onnxruntime/issues/24096) — onnxruntime-node + Transformers.js segfault 최소 재현·제보 ([재현 코드](https://github.com/amkorousagi/onnxruntime_segfault_example))
 - [onnxruntime_flutter (fork)](https://github.com/amkorousagi/onnxruntime_flutter) — 매 프레임 입력 flatten·중간 복사 제거, 프레임당 **14–20ms** 단축
@@ -29,7 +30,11 @@ Vision 모델을 실제 제품의 기기 안에서 빠르고 정확하게 돌게
 
 ## 기술
 
-`Python` `PyTorch` `ONNX` `ONNX Runtime` `TFLite (XNNPACK)` `Hugging Face Transformers` `C++` `Android NDK/JNI` `Camera2` `iOS (Swift)` `Unity` `Compute Shader` `Docker` `Jenkins` `GitHub Actions`
+| 분야 | 주로 쓰는 것 |
+|------|--------------|
+| ML · 모델링 | Python, PyTorch, ONNX, Hugging Face Transformers, scikit-learn, pandas |
+| 추론 · 온디바이스 | ONNX Runtime, TFLite (XNNPACK), C++ (멀티스레딩 · C API), Android NDK/JNI · Camera2, iOS (Swift), Unity, Compute Shader |
+| 엔지니어링 | Node.js, Docker, CMake, Jenkins, GitHub Actions |
 
 ## 연구
 
