@@ -9,10 +9,16 @@
 
 ## 경력
 
-- **2024.12 – 현재** · 에스알파테라퓨틱스 AI Center 연구원 (Manager) — 온디바이스 시선 추적, C++ 추론 SDK, 임상 데이터 모델링, NLP 추천
-- **2024.04 – 2024.12** · 에스알파테라퓨틱스 Research & Science Team Head
-- **2024.01 – 2024.04** · 에스알파테라퓨틱스 IT기술개발부 AI팀 Unity/AI 개발자
+- **2024.01 – 현재** · 에스알파테라퓨틱스 — AI Center 연구원 (Manager, 2024.12–) · Research & Science Team Head (2024.04–12) · Unity/AI 개발자 (2024.01–04)  
+  온디바이스 시선 추적, C++ 추론 SDK, 임상 데이터 모델링, NLP 추천
 - **2022.03 – 2024.02** · 경북대학교 소프트웨어 테스팅 연구실 석사과정 연구원 — 강화학습 게임 테스트 자동화, 섬유 물성 예측 ML
+
+## 하이라이트
+
+- **시선 파이프라인 구조 개선** — 실기기 프로파일링으로 병목이 연산량이 아니라 GPU→CPU 결과 전달임을 찾아 출력·백엔드 구조를 바꿈
+- **C++ 추론 SDK** — 렌더링과 분리된 전용 스레드에서 도는 네이티브 코어(ONNX Runtime·TFLite)를 C API로 감싸 React Native·Unity에 같은 API로 제공
+- **출력이 같은 최적화** — 그래프 정리·런타임 선택·전처리 재구성으로 결과값을 바꾸지 않고 추론 시간 단축, 정확도가 바뀌는 양자화는 측정 후 기각
+- **실데이터 기반 모델 개선** — 홍채 직경 기반 거리 추정 재설계, 피험자 단위 교차검증으로 판정 모델 재적합
 
 ## 학력
 
@@ -46,7 +52,7 @@
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
 
 **언어 · 플랫폼**  
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"/> <img src="https://img.shields.io/badge/SQL_(MySQL)-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"/> <img src="https://img.shields.io/badge/SQL_(MySQL)-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white"/>
 
 **엔지니어링**  
 <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
