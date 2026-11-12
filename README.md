@@ -9,39 +9,44 @@
 
 ## 경력
 
-- **2024.01 – 현재** · 에스알파테라퓨틱스 AI Center 연구원 (Manager) — 온디바이스 시선 추적, C++ 추론 SDK, 임상 데이터 모델링, NLP 추천
-- **2022.03 – 2024.02** · 경북대학교 소프트웨어 테스팅 연구실 석사 — 강화학습 게임 테스트 자동화, 데이터 회귀
+- **2024.12 – 현재** · 에스알파테라퓨틱스 AI Center 연구원 (Manager) — 온디바이스 시선 추적, C++ 추론 SDK, 임상 데이터 모델링, NLP 추천
+- **2024.04 – 2024.12** · 에스알파테라퓨틱스 Research & Science Team Head
+- **2024.01 – 2024.04** · 에스알파테라퓨틱스 IT기술개발부 AI팀 Unity/AI 개발자
+- **2022.03 – 2024.02** · 경북대학교 소프트웨어 테스팅 연구실 석사과정 연구원 — 강화학습 게임 테스트 자동화, 섬유 물성 예측 ML
 
-## 하이라이트
+## 학력
 
-- **시선 파이프라인 추론 시간 120–300ms → 42–48ms** — 실기기 계측으로 병목이 연산량이 아니라 GPU→CPU 결과 전달임을 찾아 구조 변경
-- **C++ 추론 SDK** — ONNX Runtime·TFLite 네이티브 코어를 C API로 감싸 React Native·Unity에 같은 API로 제공. 추론을 렌더링과 분리된 전용 스레드로 옮김
-- **모델 그래프 최적화** — 레이아웃 통일·양눈 배치 추론·출력 병합으로 추론 시간 **2~4배 단축**, 모델 크기 **-40%**
-- **모델 재설계** — 거리 추정을 홍채 직경 + 초점거리 기준으로 바꿔 최대 오차 **±10cm → 1.1–2.5cm**
-- **임상 데이터 모델링** — 임상시험 시선 로그 데이터 마이닝·피처 엔지니어링·회귀 모델링 (APOIS 2026 발표)
-- **치료 문장 추천 (NLP)** — Hugging Face Transformers 감정 분류와 문장 임베딩을 결합한 유사도 검색, ONNX 변환·API 서빙
+- **경북대학교 대학원 컴퓨터학부 석사** · 2022.03 – 2024.02 · GPA 4.38/4.5
+- **경북대학교 컴퓨터학부 학사** · 2018.03 – 2022.02
+
+## 논문 · 수상
+
+논문 10편 · 수상 11건 — 전체 목록은 [Google Scholar](https://scholar.google.co.kr/citations?user=V2_eA3cAAAAJ) · [LinkedIn](https://linkedin.com/in/se-chan-park-5a4b84192)
+
+- **APOIS 2026** · 소아 근시 치료 중 맥락막 두께 변화 예측 디지털 바이오마커 (3저자)
+- **정보과학회논문지 2024** · UnityPGTA, 강화학습을 이용한 게임 테스팅 자동화 (1저자)
+- **KIPS TSDE 2022** · 데이터 불균형과 측정 오차를 고려한 섬유 강신도 예측 (1저자)
+- **KCC 2023 최우수논문상** · **KIPS-AOH 2022 논문아이디어상** · **KIPS ASK 2022 우수논문상**
+- **K-water 빅데이터 공모전 최우수상(사장상)** · **대경권 대학생 프로그래밍 경진대회 최우수상** · NAVER AI RUSH 2021 1라운드 8위
 
 ## 오픈소스 · 프로젝트
 
 - [microsoft/onnxruntime#24096](https://github.com/microsoft/onnxruntime/issues/24096) — onnxruntime-node + Transformers.js segfault 최소 재현·제보 ([재현 코드](https://github.com/amkorousagi/onnxruntime_segfault_example))
 - [onnxruntime_flutter (fork)](https://github.com/amkorousagi/onnxruntime_flutter) — 매 프레임 입력 flatten·중간 복사 제거, 프레임당 **14–20ms** 단축
+- [MobileCameraPlacementDB](https://github.com/amkorousagi/MobileCameraPlacementDB) — 태블릿·모바일 기기별 전면 카메라 위치 DB
 - [UnityPGTA](https://github.com/amkorousagi/UnityPGTA) — 강화학습 게임 테스트 자동화, 오픈소스 게임 3종에서 에러 72건 탐지 (KCC 2023 최우수논문상)
 - [KOJ](https://github.com/amkorousagi/KOJ) — 프로그래밍 강의용 온라인 채점 시스템 (조교 시절 구축)
 
 ## 기술
 
 **추론 · 온디바이스**  
-<img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/TFLite_(XNNPACK)-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/Android_NDK%2FJNI-34A853?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/iOS_(Swift)-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/> <img src="https://img.shields.io/badge/Compute_Shader-5586A4?style=flat-square&logo=opengl&logoColor=white"/>
+<img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/TFLite_(XNNPACK)-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/Android_NDK%2FJNI-34A853?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/Compute_Shader-5586A4?style=flat-square&logo=opengl&logoColor=white"/>
 
-**ML**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+**ML · 데이터**  
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
+
+**언어 · 플랫폼**  
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"/> <img src="https://img.shields.io/badge/SQL_(MySQL)-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
 
 **엔지니어링**  
 <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-
-## 연구
-
-논문 10편 · 수상 11건 — 경북대 컴퓨터학부 석사 (GPA 4.38/4.5)
-- APOIS 2026 · 소아 근시 치료 중 맥락막 두께 변화 예측 (3저자)
-- 정보과학회논문지 2024 · 강화학습을 이용한 게임 테스팅 자동화 (1저자)
-- KCC 2023 최우수논문상 · KIPS ASK 2022 우수논문상
