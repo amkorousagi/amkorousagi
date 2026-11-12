@@ -2,11 +2,7 @@
 
 **AI/ML Engineer · On-Device Computer Vision · 추론 최적화 (ONNX Runtime · C++)**
 
-<p>
-  <a href="mailto:hasmi5452@gmail.com"><img src="https://img.shields.io/badge/Email-hasmi5452@gmail.com-informational?style=flat&logo=gmail"/></a>
-  <a href="https://linkedin.com/in/se-chan-park-5a4b84192"><img src="https://img.shields.io/badge/LinkedIn-Sechan_Park-0A66C2?style=flat&logo=linkedin"/></a>
-  <a href="https://scholar.google.co.kr/citations?user=V2_eA3cAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-10_papers-4285F4?style=flat&logo=googlescholar"/></a>
-</p>
+[LinkedIn](https://linkedin.com/in/se-chan-park-5a4b84192) · [Google Scholar](https://scholar.google.co.kr/citations?user=V2_eA3cAAAAJ) · [Email](mailto:hasmi5452@gmail.com)
 
 Vision 모델을 실제 제품의 기기 안에서 빠르고 정확하게 돌게 만드는 ML 엔지니어입니다.
 [식약처 품목허가](https://www.etoday.co.kr/news/view/2626050) 소아 근시 디지털 치료기기 **MyoHabit**의 시선 추적 파이프라인을 Android·iOS 온디바이스로 설계·운영하고 있습니다.
@@ -18,8 +14,6 @@ Vision 모델을 실제 제품의 기기 안에서 빠르고 정확하게 돌게
 - **모델 그래프 최적화** — 레이아웃 통일·양눈 배치 추론·출력 병합으로 갱신 주기 **2~4배**, 모델 크기 **-40%**
 - **모델 재설계** — 거리 추정을 홍채 직경 + 초점거리 기준으로 바꿔 최대 오차 **±10cm → 1.1–2.5cm**
 - **임상 데이터 모델링** — 임상시험 시선 로그 약 18만 건으로 피처 설계·회귀 모델링 (APOIS 2026 발표)
-- **NLP 서빙** — 감정 분류 + 문장 임베딩 추천을 ONNX로 변환해 프로덕션 배포, 추론 **11.33 → 2.61ms**
-- **CI/CD** — Jenkins로 Google Play 자동 배포, LLM PR 리뷰봇, 시선 회귀 테스트 49/49 CI 게이트
 
 ## 오픈소스 · 프로젝트
 
